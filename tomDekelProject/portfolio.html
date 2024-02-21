@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Dekel Portfolio</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="headerPic">
+            <img src="./pictures/portfolioPic.webp" alt="picture of tom dekel">
+            <p>Tom Dekel</p>
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#" style="--i:0;">ראשי</a>
+            <a href="#about" style="--i:1;">אודות</a>
+            <a href="#gallery-header" style="--i:2;">שירותים</a>
+            <a href="#form" style="--i:3;">צור קשר</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+        <div id="site-intro">
+            <h1>תיק העבודות שלי</h1>
+            <p>"nothing is impossible, the word itself says 'I'm possible"
+            </p>
+
+
+        </div>
+
+        <div id="about">
+            <img src="./pictures/portfolioPic.webp" alt="picture of website developer">
+            <h3>קצת עלי</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo aperiam laudantium laborum labore,
+                laboriosam consequuntur praesentium necessitatibus expedita dolorem quia voluptates a! Maiores magni
+                amet alias nemo consequuntur ipsum, officia perferendis consectetur quis blanditiis enim eligendi id sed
+                harum? Atque deserunt autem eveniet hic labore, eum perspiciatis qui id nesciunt!</p>
+            <a href="">להורדת קורות חיים</a>
+            <!--gallery header  -->
+            <div id="gallery-header">
+                <h3>עבודות נבחרות</h3>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, itaque. Quas, beatae. Beatae
+                    deserunt
+                    doloremque eum iusto, fugit repudiandae pariatur.</P>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option1.PNG" alt="option 1 img"></div>
+                <h3>תן לנו להוביל אותך קדימה</h3>
+                <p>some text...</p>
+                <button>לעמוד הפרויקט</button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option2.PNG" alt="option 2 img"></div>
+                <h3>כאן ועכשיו</h3>
+                <p>some text...</p>
+                <button>לעמוד הפרויקט</button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option3.PNG" alt="option 3 img"></div>
+                <h3>קפה טוב לבוקר טוב</h3>
+                <p>some text...</p>
+                <button>לעמוד הפרויקט</button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option4.PNG" alt="option 4 img"></div>
+                <h3>תן לנו להוביל אותך קדימה</h3>
+                <p>some text...</p>
+                <button>לעמוד הפרויקט</button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option5.PNG" alt="option 5 img"></div>
+                <h3>גלריית תמונות</h3>
+                <p>some text...</p>
+                <button>לעמוד הפרויקט</button>
+            </div>
+            <div class="card">
+                <div class="img-div"><img src="./pictures/option6.PNG" alt="option 6 img"></div>
+                <h3>ייעוץ טלפוני חינם</h3>
+                <p>some text...</p>
+                <button>לעמוד הפרויקט</button>
+            </div>
+        </div>
+
+
+        <!-- contact form -->
+        <div id="form">
+
+            <form>
+                <h3>צור קשר</h3>
+                <p>לקביעת פגישה עסקית או התייעצות טלפונית ללא עלות אנא מלאו את פרטיכם בטופס למטה:</p>
+                <div class="form-control">
+                    <label for="name">שם מלא</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-control">
+                    <label>דוא"ל</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-control">
+                    <label>טלפון</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-control">
+                    <label>תוכן ההודעה</label>
+                    <textarea class="form-control" rows="4" cols="50"></textarea>
+                </div>
+
+                <div class="form-control">
+                    <input type="submit" value="שליחה" class="button-29">
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="social">
+            <div class="media">
+                <div>
+                    <i class="fa-brands fa-facebook">tom.dekel1</i>
+                </div>
+                <div><i class="fa-solid fa-phone"></i>0523671959</div>
+                <div><i class="fa-brands fa-whatsapp">tom dekel</i></div>
+                <div><i class="fa-solid fa-location-dot">beit hillel</i></div>
+                <div><i class="fa-solid fa-at"></i>dekeltom0@gmail.com</div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
